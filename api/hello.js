@@ -1,3 +1,4 @@
+// api/hello.js
 module.exports = (req, res) => {
-  res.status(200).send('hello from looprun-proxy');
+  res.status(200).json({ message: 'hello from looprun-proxy' });
 };
